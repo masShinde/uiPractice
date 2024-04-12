@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    background-color: steelblue;
+}
+
+.title, .subTitle, .subText{
+    color: #fff;
+}
+
+.glass{
+    width: 50px;
+    height: 90px;
+    border: 4px solid blue;
+    background-color: #fff;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.target{
+    width: 250px;
+    height: 450px;
+    color: steelblue;
+    position: relative;
+    overflow: hidden;
+}
+
+.glass-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 240px;
+    flex-wrap: wrap;
+}
+
+.glass-list .glass{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.filled{
+    background-color: steelblue;
+    color: #fff;
+}
+
+.section{
+    width: 100%;
+    height: 100%;
+}
+
+.remaining-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.remaining-section h2{
+    margin: 0;
+}
+
+.filled-section{
+    height: 0%;
+    background-color: rgb(108, 108, 231);
+    color:  rgb(10, 10, 115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 32px;
+}
+
+
+
+

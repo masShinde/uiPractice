@@ -1,0 +1,13 @@
+.x-axis-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4rem;
+    justify-content: space-around;
+}
+
+.x-container{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}

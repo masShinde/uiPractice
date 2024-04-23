@@ -1,0 +1,33 @@
+.y-container{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 4rem;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
+
+.y-axis-val{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+
+.y-axis-val:not(:nth-child(1)):before{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid black;
+    top: 90%;
+    left: 100%;
+    width: 895px;
+    margin-left: 0.5rem;
+}
+

@@ -1,0 +1,10 @@
+.chart-section-container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    z-index: 2;
+}

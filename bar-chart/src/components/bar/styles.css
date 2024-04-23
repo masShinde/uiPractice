@@ -1,0 +1,13 @@
+.bar-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-width: 4rem;
+}
+
+.first-stack{
+    background-color: red;
+}
+
+.second-stack{
+    background-color: blue;
+}

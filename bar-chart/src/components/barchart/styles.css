@@ -1,0 +1,13 @@
+.chart-container{
+    height: 40rem;
+    width: 60rem;
+    background-color: rgb(216, 224, 224);
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-wrapper-container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}

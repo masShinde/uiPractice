@@ -42,7 +42,7 @@ export const getNearestPow = (val) => {
 
 export const processValue = (val, highestYValue) => {
     const total = val?.sales + val?.profit
-    const totalPercentage = total/highestYValue * 100
+    const totalPercentage = (total/highestYValue * 100 )- 15
     const salesPercentage = (val?.sales/total) * 100
     const profitPercentage = (val?.profit/total) * 100
     return {salesPercentage, profitPercentage, totalPercentage}

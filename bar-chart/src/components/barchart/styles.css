@@ -11,3 +11,11 @@
     flex-direction: row;
     flex: 1;
 }
+
+@media only screen and (max-width: 600px) {
+  
+    .chart-container{
+      width: 100%;
+      padding: 0px 10px;
+    }
+  }

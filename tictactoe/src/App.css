@@ -1,19 +1,27 @@
-.App {
+.container{
   height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .row{
   display: flex;
+  flex-direction: row;
 }
-
 
 .col{
   width: 4rem;
   height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid black;
+}
+
+.error-text{
+
 }

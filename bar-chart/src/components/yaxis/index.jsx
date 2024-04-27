@@ -2,11 +2,11 @@ import React from "react";
 import "./styles.css"
 
 const YAxis = (props) => {
-    const {values, chartWidht} = props
+    const {values, chartWidth} = props
     const style={
-        "--width": chartWidht
+        "--width": chartWidth
     }
-    console.log("width", chartWidht);
+    console.log("width", chartWidth);
     return (
         <div className="y-container">
             {values?.map(val => <div key={val} className="y-axis-val" style={style}>

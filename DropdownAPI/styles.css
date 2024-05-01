@@ -1,0 +1,44 @@
+
+
+.drop-down{
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.flex-c{
+    width: 60rem;
+    height: 60rem;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 200vh;
+}
+
+.flex-c div{
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+}
+
+.flex-1{
+    background-color: red;
+    /* align-self: flex-end;  */
+    top: 0;
+    /* left: 0; */
+    position: fixed;
+}
+
+.flex-2{
+    background-color: yellow;
+    /* align-self: center; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex-3{
+    background-color: pink;
+    right: 0;
+    bottom: 0;
+}

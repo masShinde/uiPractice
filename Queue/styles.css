@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container{
+    width: 40rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    margin: 1rem 0;
+}
+
+.queue-container{
+    display: flex;
+    flex: 1;
+    overflow: scroll;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.queue-input{
+    padding: 0.5rem;
+}
+
+.submit-button{
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.queue{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid seagreen;
+    height: 100%;
+    width: 10%;
+}

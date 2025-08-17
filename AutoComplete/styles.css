@@ -1,0 +1,8 @@
+#suggestion-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.suggestion-item{
+    height: 2rem;
+    cursor: pointer;
+}
